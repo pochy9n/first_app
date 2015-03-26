@@ -30,7 +30,7 @@ end
 # PostgreSQL for Heroku
 group :production do
 	gem 'pg'
-	gem 'rails_12facter', platforms: [:ruby]
+	gem 'rails_12factor'
 end
 
 # Use ActiveModel has_secure_password
